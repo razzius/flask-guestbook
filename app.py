@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-guests = ['Razzi Abuissa']
+guests = []
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
