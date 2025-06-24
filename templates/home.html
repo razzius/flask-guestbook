@@ -1,0 +1,14 @@
+<h1>
+  Razzi's guestbook
+</h1>
+<ul>
+  {% for guest in guests %}
+    <li>{{guest}}</li>
+  {% endfor %}
+</ul>
+<p>Add your name</p>
+<form method="POST">
+  <input name="name">
+  <input type="submit" value="Add">
+</form>
+</h1>
